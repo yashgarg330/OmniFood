@@ -413,6 +413,9 @@ cite img{
 .section-plans{
     background-color: #f4f4f4;
 }
+.section-plans .row h2{
+    font-weight: 300;
+}
 .plan-box{
     background-color: white;
     border-radius: 5px;
@@ -428,11 +431,13 @@ cite img{
     font-size: 300%;
     margin-bottom: 10px;
     font-weight: 100;
-    color: #e67e22;
+    color: #555;
 }
 .plan-price span{
     font-size: 30%;
     font-weight: 300;
+    color: #e67e22;
+    
 }
 .plan-meal-price{
     font-size: 80%;
@@ -443,7 +448,7 @@ cite img{
 .plan-box ul li{
     padding: 5px;
 }
-.plan-box div:first-child{
+.plan-box div:last-child{
     background-color: #fcfcfc;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
